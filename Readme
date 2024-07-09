@@ -11,3 +11,8 @@ TO RUN OUR Node App:
     docker run --network my-net -p 3000:3000 --name myapp yagyaadhikari/app-mongo-node:01
 
     
+---
+    Multiple Container:: 
+         there are two ways:- 
+         Run multiple container in same pod
+         Run each container in separate pod

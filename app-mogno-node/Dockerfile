@@ -1,4 +1,4 @@
-FROM node
+FROM node:latest
 
 WORKDIR /app/
 
@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm install
 
-CMD ["node", "index.js"]
+EXPOSE 3000
 
-
+CMD ["bash", "entrypoint.sh"]
